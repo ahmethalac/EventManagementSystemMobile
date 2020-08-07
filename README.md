@@ -1,16 +1,11 @@
-# etkinlik_yonetim_sistemi_mobil
-
-Mobile version of TUBITAK BILGEM YTE Internship Project
+# EventManagementSystemMobile
+Mobile application of my TÜBİTAK BİLGEM YTE Internship project. Written in Flutter.
 
 ## Getting Started
+**Google API Key should be inserted into AndroidManifest file for Google Maps to function properly**
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features of the Project
+- User can list all events whose start date has not passed and apply with name, surname and identification number.
+- For each application, QRCode and location information is generated and shown to user.
+- User can see all his/her previous applications with their QRCode and other information.
+- Organizator can scan these QRCodes and validate the participant.
